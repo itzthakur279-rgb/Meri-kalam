@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Meri Kalam | Ankesh</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.7;
+      background: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: #111827;
+      color: #fff;
+      padding: 20px 15px 18px;
+      text-align: center;
+    }
+    header h1 { font-size: 30px; letter-spacing: 1px; }
+    header h2 { font-size: 16px; margin-top: 4px; opacity: 0.9; }
+    .tagline {
+      font-size: 13px;
+      margin-top: 6px;
+      font-style: italic;
+      opacity: 0.8;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto 40px;
+      padding: 0 15px;
+    }
+    section {
+      background: #ffffff;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    section h3 {
+      font-size: 22px;
+      margin-bottom: 8px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 4px;
+    }
+    p { font-size: 15px; margin-bottom: 8px; }
+
+    .poem-card {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border-radius: 10px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+    }
+    .poem-title {
+      font-weight: 600;
+      font-size: 17px;
+      margin-bottom: 4px;
+    }
+    .poem-meta {
+      font-size: 12px;
+      opacity: 0.75;
+      margin-bottom: 8px;
+    }
+    .poem-text {
+      font-size: 14px;
+      white-space: pre-line;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Meri Kalam</h1>
+    <h2>by Ankesh</h2>
+    <div class="tagline">"जब भावनाएँ शब्द बनती हैं"</div>
+  </header>
+
+  <div class="container">
+
+    <section id="about">
+      <h3>About Ankesh</h3>
+      <p>नमस्ते, मैं <strong>अंकैश (Ankesh)</strong> हूँ। भावनात्मक और प्रेरणात्मक कविताएँ लिखना मुझे
+      बचपन से पसंद है। “Meri Kalam” मेरी छोटी-सी दुनिया है जहाँ मैं अपने मन के विचार और कविताएँ साझा करता हूँ।</p>
+    </section>
+
+    <section id="poems">
+      <h3>Poems / कविताएँ</h3>
+
+      <div class="poem-card">
+        <div class="poem-title">मृगतृष्णा</div>
+        <div class="poem-meta">लेखक: Ankesh</div>
+        <div class="poem-text">
+जब जलती हुई धूप
+रेगिस्तान को और जलाती है,
+जीवन की अभिकल्पना करके
+जल रूपी जीवन दिखलाती है।
+
+तब यूँ ही देख उसे हिरन
+जो दौड़ लगाती है,
+जीवन को नूतन उमंग मिले—
+यह सोच और गति बढ़ाती है।
+
+पर मंज़िल मिल न पाती है,
+हिरन वहीं प्राण गँवाता है,
+क्योंकि यथार्थ नहीं था वह
+जिसके पीछे वो भागी थी।
+
+जीवन की अभिकल्पना करके
+स्वयं मृत्यु के मुख डाल चली,
+मृग ने मूर्खता का काम किया,
+संपूर्ण रेगिस्तान में
+स्वयं को परेशान किया।
+
+कुछ हाथ उसे न लग पाता है,
+वह प्यासा ही चला जाता है…
+
+मनुष्य जीवन अनंत देख,
+अनंत तृष्णा को उसमें देख,
+यह तृष्णा उसे तड़पाती है,
+जीवन में सब कुछ हासिल करने को
+उसे भरमाती है।
+
+जीवन का यह सिद्धांत देख,
+गीता का तू यह सार देख—
+“खाली हाथ ही तो आए थे,
+फिर लेकर क्या हम जाएँगे?”
+
+फिर भी तेरा मन वशालित है
+मोह–माया के इस जाल में;
+तज दे इस माया को,
+जीवन अपना आकार देख।
+
+कुछ नहीं तेरे हाथों में,
+अपने जीवन का आकार देख;
+दिशा बदल जीवन की अपनी,
+वरना दशा बिगड़ जाएगी,
+
+मृग सा इस दुनिया में
+अपना जीवन–स्वरूप खो जाएगी।
+
+धन्यवाद।
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    © <span id="year"></span> Meri Kalam • Ankesh
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
